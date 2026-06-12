@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" role="img" aria-labelledby="title desc">
+  <title id="title">LLM4Edu ICCE 2026</title>
+  <desc id="desc">A simple text logo for the 3rd Workshop on Large Language Models for Education.</desc>
+  <rect width="720" height="220" rx="28" fill="#f6f8fb"/>
+  <rect x="26" y="26" width="168" height="168" rx="22" fill="#234a73"/>
+  <path d="M72 73h76M72 110h76M72 147h48" stroke="#ffffff" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="156" cy="147" r="10" fill="#f0b45f"/>
+  <text x="226" y="94" fill="#1f2f42" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">LLM4Edu</text>
+  <text x="228" y="144" fill="#48627d" font-family="Arial, Helvetica, sans-serif" font-size="30">ICCE 2026 Workshop</text>
+</svg>
