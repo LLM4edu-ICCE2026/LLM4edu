@@ -426,6 +426,122 @@ h3 {
   font-size: 14px;
 }
 
+.schedule-day {
+  display: grid;
+  gap: 24px;
+}
+
+.schedule-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.schedule-heading h2,
+.schedule-heading p {
+  margin-bottom: 0;
+}
+
+.schedule-heading > p,
+.schedule-date {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.schedule-date {
+  margin: 0 0 6px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.schedule-session {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: var(--shadow);
+}
+
+.session-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px 22px;
+  background: var(--surface-soft);
+  border-bottom: 1px solid var(--line);
+}
+
+.session-header h3,
+.session-header p {
+  margin: 0;
+}
+
+.session-time {
+  color: var(--brand-2);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.schedule-items {
+  display: grid;
+}
+
+.schedule-item {
+  display: grid;
+  grid-template-columns: 118px minmax(0, 1fr);
+  min-width: 0;
+  gap: 20px;
+  padding: 20px 22px;
+}
+
+.schedule-item > div {
+  min-width: 0;
+}
+
+.schedule-item + .schedule-item {
+  border-top: 1px solid var(--line);
+}
+
+.schedule-item time {
+  color: var(--text);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.schedule-item h4 {
+  margin: 3px 0 8px;
+  font-size: 18px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.schedule-label,
+.schedule-authors {
+  margin: 0;
+}
+
+.schedule-label {
+  color: var(--brand-2);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.schedule-authors {
+  color: var(--muted);
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.keynote-item {
+  border-left: 4px solid var(--brand);
+}
+
 .site-footer {
   padding: 38px 0;
   color: #dce6ff;
@@ -504,6 +620,22 @@ h3 {
   .paper-card h2,
   .paper-card h3 {
     font-size: 20px;
+  }
+
+  .schedule-heading,
+  .session-header {
+    display: block;
+  }
+
+  .schedule-heading > p,
+  .session-header > p {
+    margin-top: 8px;
+  }
+
+  .schedule-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 18px;
   }
 
   .chair-card,
